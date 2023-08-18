@@ -155,3 +155,13 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.video-container video {
+  width: 18%; /* 100% / 4 videos = 25%. Subtracting a bit for some space between videos. */
+}
