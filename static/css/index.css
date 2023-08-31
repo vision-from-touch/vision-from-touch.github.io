@@ -163,5 +163,6 @@ body {
 }
 
 .video-container video {
-  width: 18%; /* 100% / 4 videos = 25%. Subtracting a bit for some space between videos. */
+  width: 18%; 
+  padding-right: 10px;
 }
