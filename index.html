@@ -119,39 +119,47 @@
   </div>
 </section>
 
-<section class="hero teaser">
+
+<section class="section">
   <div class="container is-max-desktop">
-		<!-- <img src="static/images/teaser-v5.png" alt="Vision2Touch Teaser"> -->
-    <div class="column is-centered">
+
+    <div class="columns is-centered">
+
+      <!-- Touch to Vision -->
       <div class="column">
         <div class="content">
-          <!--Todo: change teaser to animations -->
-          <img id="ref" src="./static/images/c1.png" alt="Image on the left" onmouseover="changeImage()" onmouseout="revertImage()">
-          <img id="out" src="./static/images/r1.png" alt="Image on the right">
+          <h2 class="title is-3">Vision to Touch Generation</h2>
+          <img id="ref" src="./static/images/c1.png" alt="Image on the left" width="160px" onmouseover="changeImage()" onmouseout="revertImage()">
+          <img id="out" src="./static/images/r1.png" alt="Image on the right" width="160px">
           <script src="script.js"></script>
         </div>
       </div>
+      <!--/ Touch to Vision -->
 
+      <!-- TDIS -->
       <div class="column">
+        <h2 class="title is-3">Tactile-driven Image Stylization</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <img id="ref" src="./static/images/c2_ref.png" alt="Image on the left"  width="152px">
+            <img id="ref" src="./static/images/c2_touch.png" alt="Image on the left" width="152px" onmouseover="changeImage_tdis()" onmouseout="revertImage_tdis()">
+            <img id="tdis_out" src="./static/images/r2.png" alt="Image on the right"  width="152px">
+          </div>
 
+        </div>
       </div>
-
-
-
     </div>
-    
-
-
-    <h2 class="subtitle has-text-centered">
-      We generate and manipulate images via touch.
-    </h2>
-  </div>
-</section>
-
+    <!--/ TDIS -->
+  </section>
 
 
 <section class="section">
   <div class="container is-max-desktop">
+
+    <div class="column is-centered">
+      
+
+    </div>
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
